@@ -1,0 +1,46 @@
+# ==============================
+# macOS / editor
+# ==============================
+.DS_Store
+**/.DS_Store
+__MACOSX/
+._*
+.idea/
+.vscode/
+
+# ==============================
+# Data sensitif & log
+# (dokter.sql berisi data pasien asli)
+# ==============================
+*.sql
+error_log
+**/error_log
+*.log
+
+# ==============================
+# Laravel (ada di subfolder riwayat_kunjungan_dokter)
+# ==============================
+riwayat_kunjungan_dokter/vendor/
+riwayat_kunjungan_dokter/node_modules/
+riwayat_kunjungan_dokter/.env
+riwayat_kunjungan_dokter/.env.backup
+riwayat_kunjungan_dokter/.phpunit.result.cache
+riwayat_kunjungan_dokter/npm-debug.log
+riwayat_kunjungan_dokter/yarn-error.log
+riwayat_kunjungan_dokter/public/hot
+riwayat_kunjungan_dokter/public/storage
+riwayat_kunjungan_dokter/storage/*.key
+riwayat_kunjungan_dokter/storage/logs/*
+riwayat_kunjungan_dokter/storage/framework/cache/data/*
+riwayat_kunjungan_dokter/storage/framework/sessions/*
+riwayat_kunjungan_dokter/storage/framework/views/*
+riwayat_kunjungan_dokter/storage/debugbar/
+riwayat_kunjungan_dokter/docker-compose.override.yml
+riwayat_kunjungan_dokter/Homestead.json
+riwayat_kunjungan_dokter/Homestead.yaml
+
+# Pertahankan folder kosong Laravel
+!riwayat_kunjungan_dokter/storage/logs/.gitignore
+!riwayat_kunjungan_dokter/storage/framework/cache/data/.gitignore
+!riwayat_kunjungan_dokter/storage/framework/sessions/.gitignore
+!riwayat_kunjungan_dokter/storage/framework/views/.gitignore
